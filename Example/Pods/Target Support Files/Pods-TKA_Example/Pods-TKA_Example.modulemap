@@ -1,0 +1,6 @@
+framework module Pods_TKA_Example {
+  umbrella header "Pods-TKA_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

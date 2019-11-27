@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TKA (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TKA (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TKA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TKA: 9e15ececd691e4effeeef177b85c2dc00621209f
+
+PODFILE CHECKSUM: a0e6047508dc0bb12ec8564aff448d632dab315e
+
+COCOAPODS: 1.8.4

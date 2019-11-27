@@ -1,0 +1,22 @@
+{
+  "name": "TKA",
+  "version": "0.1.0",
+  "summary": "A short description of TKA.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/piaomiaoatian667/TKA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "piaomiaoatian667": "piaomiaoatian@yeah.com"
+  },
+  "source": {
+    "git": "https://github.com/piaomiaoatian667/TKA.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TKA/Classes/**/*"
+}

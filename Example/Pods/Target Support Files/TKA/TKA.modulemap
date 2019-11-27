@@ -1,0 +1,6 @@
+framework module TKA {
+  umbrella header "TKA-umbrella.h"
+
+  export *
+  module * { export * }
+}

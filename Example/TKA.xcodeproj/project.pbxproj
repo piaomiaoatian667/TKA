@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		068977D1799DC7A04CDBB223 /* Pods-TKA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKA_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TKA_Tests/Pods-TKA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		25901F7EBDD6B316F865277A /* Pods-TKA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKA_Example.release.xcconfig"; path = "Target Support Files/Pods-TKA_Example/Pods-TKA_Example.release.xcconfig"; sourceTree = "<group>"; };
-		263D6CCBF95B6FB207C880C7 /* TKA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKA.podspec; path = ../TKA.podspec; sourceTree = "<group>"; };
-		48034078BA2D08E3D8827A52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		263D6CCBF95B6FB207C880C7 /* TKA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKA.podspec; path = ../TKA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48034078BA2D08E3D8827A52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5965786FA20D3090AD988917 /* Pods-TKA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKA_Example.debug.xcconfig"; path = "Target Support Files/Pods-TKA_Example/Pods-TKA_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TKA_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKA_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86E4F06ED4C9D4FC574BB751 /* Pods-TKA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKA_Tests.release.xcconfig"; path = "Target Support Files/Pods-TKA_Tests/Pods-TKA_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D918CD537A2686B11FE32F61 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D918CD537A2686B11FE32F61 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F587DB36E05F7B9882882FD2 /* Pods_TKA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				068977D1799DC7A04CDBB223 /* Pods-TKA_Tests.debug.xcconfig */,
 				86E4F06ED4C9D4FC574BB751 /* Pods-TKA_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
