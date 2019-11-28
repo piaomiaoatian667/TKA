@@ -9,35 +9,63 @@
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0061EEC476A3D8CC073D134DF4805053 /* Pods-TKA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A24CE8BA903F5E895CCA71B78B3FEC0 /* Pods-TKA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11363A5BFB520EDE92E894DA06D9326D /* DopBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C636BB9569D0A56061D648C92ECA53 /* DopBase64.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		207239C30D3E4F9C91C1E43CA5AEE40D /* DopUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DEEDECF1B9F8B54CB4F0415BBBE275 /* DopUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21F911D0FF1C581354A091AC4B34399C /* Pods-TKA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 141DDAF2DDA0068DB3B7764A3C215A1B /* Pods-TKA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233B2D0483A168CAC43B72C231A0A8B7 /* DopoolReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 675980CF67DCF2E0786BE3ADA8065579 /* DopoolReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C8C25997D94B846704C11B9E6D209E /* UIDevice+DopIdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DF65C86C4B6985A5EA94540255D98D /* UIDevice+DopIdentifierAddition.m */; };
+		2AC4CFB74953B03530DB05ACDE4198A9 /* DopGlobalDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6248743D95852A27A6A4F883B641030C /* DopGlobalDefinition.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		3110E210DC31CBB46DE2284E27AA88B2 /* NSData+DopGZipAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A942F7A291CB1C369AC68B509BC0602B /* NSData+DopGZipAdditions.m */; };
+		318A31D5C3AA119B58E1A5184A6FC6CE /* DopTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 588596F1CBA49373268BC5074454A527 /* DopTrack.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BFFFA9747892EB221A1F884F093750D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		449A1578D79F8ED263FBE95F1A951487 /* DopCheckUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6CA938B15594F49E7E3B4F50BC538F /* DopCheckUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4766380A2F9DAEA49E79F9B051ADD833 /* NSString+DopNull.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6E0E4DCE3A4CCE55814BF14F53E619 /* NSString+DopNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C098A03015C61C5412A7A35327CF5CB /* Pods-TKA_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE5B8F68E5A6CB7B2B0006D0ACF7E58 /* Pods-TKA_Example-dummy.m */; };
 		4D9320978D91B9305B0C032AED28D768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		5066BFE34BE5A3D0FB3AB6ED86FFE70D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C96036C120F897572F066E53C8978 /* ReplaceMe.m */; };
+		5AA26FBE93B8EE423BE700876F4BA9FC /* DopTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = EC50BDBD841A46EDFFB0FC2994032954 /* DopTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C9E63F93544973305F455ECCC95EDEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		64225C60AC2C36D25F2A1B53C3D293C0 /* DopCheckUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9FEE63AFA05565D6464DF1705BFB0A /* DopCheckUDID.m */; };
+		64910A0A6BDBE7FA26F4FD0103C232C9 /* NSString+DopNull.m in Sources */ = {isa = PBXBuildFile; fileRef = B57FD83B4C539E2EE8E58D4E9B1659BD /* NSString+DopNull.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
+		71D00823EA5857469B50449CDA2DFF3C /* NSString+DopEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 677AA0D43ACE6BAD52994FA670DFD224 /* NSString+DopEncoding.m */; };
+		72C690CC33D6FD09BE083809CFB77127 /* DopGlobalDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BC78B4E04A71598D9CC33E634FB1AD /* DopGlobalDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BC42DC7CA755BA01CCB062543738D7 /* DopUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 503002F8D3E5F3EA0A2D099172838A0C /* DopUDID.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9427A9224372BA73F7C8F8819D2C9AFD /* DopTrackLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 494B87EE9017F70C7E9DB907CAED66E9 /* DopTrackLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A590D2F3B488146455828DA75174734 /* NSString+DopEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 173473ECE786A8CFB5812A4A8D779DB9 /* NSString+DopEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
+		9E600B7CD46CF6D0D45093491DFA6F7E /* DopBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8FCEFAB7CD3739D78407C6C5BA63B3 /* DopBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F13CCFDD5AAA71C7653561DD6C01131 /* DopTrackLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B4B83E74805B20D05C4E2DD71E81D2 /* DopTrackLib.m */; };
+		A2AD5E952A4C4180791EE1801EF3BCD8 /* NSString+DopMD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5FEFF162AC11225EF487D94F1D1F5 /* NSString+DopMD5Addition.m */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		A88B6028C52A77EF236525DFBBED094F /* DopoolReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A2953E041C62EDF58712FB9154FBB137 /* DopoolReachability.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B3E5F65EFDE43FBD084FC8D900AA765F /* TKA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9878DA0CA3DD6F764A8CE7E9494C9CB9 /* TKA-dummy.m */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BA6DFABEF6A1DC0711A3627028A3C5A7 /* NSString+DopMD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 145F7E8DFF0696752F0F38F2CB7D42A5 /* NSString+DopMD5Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF62BA2677CA7ED550E11F30F1B12B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		C0F796B96D61954DBF4236D19E4F858D /* TKA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E521C8C2CDBEB7F827ECE943F53D0B9F /* TKA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C811C1B3EFDD113410C0AB24CDE199 /* NSData+DopGZipAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 01386790F32D2330AE34933C4571C842 /* NSData+DopGZipAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D705A12F1A114E74F1D2468E1B724670 /* TKA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB714F3A65747BB499E2B227FF62D877 /* TKA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F5F4D68C84558550D56B8830C0A6BC /* Dop_Device_Checker.h in Headers */ = {isa = PBXBuildFile; fileRef = 749434BDB9157A02BB528EE39FFFD5E6 /* Dop_Device_Checker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D3918C4FCCA25423E2565EBF38C50C /* NSDate+DopBJZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 69325BC317B4667C567C120B3DAC5F0F /* NSDate+DopBJZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E1B3AEE053677765CED67BDEC675EF60 /* NSDate+DopBJZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 457160AC378498911080484EE5B2A5E6 /* NSDate+DopBJZone.m */; };
+		E6C16522E6B5CE39482A54CDEB4720A6 /* DopTrackConst.h in Headers */ = {isa = PBXBuildFile; fileRef = E9689BB4F81327A302EF4738FF193D61 /* DopTrackConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		EA38585CD102C76B5C7F374330FFA2F3 /* Dop_Device_Checker.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD55DE8BE3547AA8D1CD0D0786CD4E /* Dop_Device_Checker.m */; };
 		ED23F021BDED08E542FFAEF8811A895A /* Pods-TKA_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 773526DD68F00E2F3DA76FC9D848A389 /* Pods-TKA_Tests-dummy.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F32699E411F5F49B17B8DA94CD14ABD8 /* UIDevice+DopIdentifierAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E270FAC765D437F42B3D1E563B0DA6 /* UIDevice+DopIdentifierAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBB3F9876218B1441DE1F42322EE1DCB /* TKA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99744E64473C43511C25EC14D2F3816B /* TKA-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,64 +93,92 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01386790F32D2330AE34933C4571C842 /* NSData+DopGZipAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+DopGZipAdditions.h"; path = "TKA/Classes/NSData+DopGZipAdditions.h"; sourceTree = "<group>"; };
 		04019534E8C6E96258AA71FB6B1A8ADE /* Pods-TKA_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKA_Example.modulemap"; sourceTree = "<group>"; };
-		0807F261040F603A5295B45C70C72593 /* TKA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKA.modulemap; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		0BD5FEFF162AC11225EF487D94F1D1F5 /* NSString+DopMD5Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DopMD5Addition.m"; path = "TKA/Classes/NSString+DopMD5Addition.m"; sourceTree = "<group>"; };
+		11CD55DE8BE3547AA8D1CD0D0786CD4E /* Dop_Device_Checker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Dop_Device_Checker.m; path = TKA/Classes/Dop_Device_Checker.m; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		141DDAF2DDA0068DB3B7764A3C215A1B /* Pods-TKA_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKA_Example-umbrella.h"; sourceTree = "<group>"; };
+		145F7E8DFF0696752F0F38F2CB7D42A5 /* NSString+DopMD5Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DopMD5Addition.h"; path = "TKA/Classes/NSString+DopMD5Addition.h"; sourceTree = "<group>"; };
+		173473ECE786A8CFB5812A4A8D779DB9 /* NSString+DopEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DopEncoding.h"; path = "TKA/Classes/NSString+DopEncoding.h"; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		1DAF00E979E511FFCFAEB43092BEB87A /* Pods-TKA_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKA_Tests-Info.plist"; sourceTree = "<group>"; };
-		28F1198B688D33B4BD6E66A6639264AB /* TKA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKA-prefix.pch"; sourceTree = "<group>"; };
+		227B71FAA6D4C5453763869F3825FF67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		299B72B4B73A13A1C783DB23630A82E4 /* Pods-TKA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKA_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		457160AC378498911080484EE5B2A5E6 /* NSDate+DopBJZone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DopBJZone.m"; path = "TKA/Classes/NSDate+DopBJZone.m"; sourceTree = "<group>"; };
+		494B87EE9017F70C7E9DB907CAED66E9 /* DopTrackLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopTrackLib.h; path = TKA/Classes/DopTrackLib.h; sourceTree = "<group>"; };
+		49BC78B4E04A71598D9CC33E634FB1AD /* DopGlobalDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopGlobalDefinition.h; path = TKA/Classes/DopGlobalDefinition.h; sourceTree = "<group>"; };
+		4A8FCEFAB7CD3739D78407C6C5BA63B3 /* DopBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopBase64.h; path = TKA/Classes/DopBase64.h; sourceTree = "<group>"; };
 		4F5F289725F4D87A6960939288FD2C87 /* Pods-TKA_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKA_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		503002F8D3E5F3EA0A2D099172838A0C /* DopUDID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopUDID.m; path = TKA/Classes/DopUDID.m; sourceTree = "<group>"; };
 		5671827DAD0AACBBB36A7ABB36D0AB5E /* Pods-TKA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKA_Example.release.xcconfig"; sourceTree = "<group>"; };
+		588596F1CBA49373268BC5074454A527 /* DopTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopTrack.m; path = TKA/Classes/DopTrack.m; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2B5240E1CFA3312763B893AE1A33E7 /* Pods-TKA_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKA_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6248743D95852A27A6A4F883B641030C /* DopGlobalDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopGlobalDefinition.m; path = TKA/Classes/DopGlobalDefinition.m; sourceTree = "<group>"; };
 		64CC8F5512DE6B1A0AD055D1805AA68D /* Pods-TKA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKA_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		675980CF67DCF2E0786BE3ADA8065579 /* DopoolReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopoolReachability.h; path = TKA/Classes/DopoolReachability.h; sourceTree = "<group>"; };
+		677AA0D43ACE6BAD52994FA670DFD224 /* NSString+DopEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DopEncoding.m"; path = "TKA/Classes/NSString+DopEncoding.m"; sourceTree = "<group>"; };
+		69325BC317B4667C567C120B3DAC5F0F /* NSDate+DopBJZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DopBJZone.h"; path = "TKA/Classes/NSDate+DopBJZone.h"; sourceTree = "<group>"; };
+		69B4B83E74805B20D05C4E2DD71E81D2 /* DopTrackLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopTrackLib.m; path = TKA/Classes/DopTrackLib.m; sourceTree = "<group>"; };
 		6A24CE8BA903F5E895CCA71B78B3FEC0 /* Pods-TKA_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKA_Tests-umbrella.h"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		749434BDB9157A02BB528EE39FFFD5E6 /* Dop_Device_Checker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Dop_Device_Checker.h; path = TKA/Classes/Dop_Device_Checker.h; sourceTree = "<group>"; };
 		773526DD68F00E2F3DA76FC9D848A389 /* Pods-TKA_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKA_Tests-dummy.m"; sourceTree = "<group>"; };
 		79A41F98E20B4F5B03A82DAEC2C65E31 /* Pods_TKA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKA_Tests.framework; path = "Pods-TKA_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79D38D35E74DDF61F92852620968210E /* TKA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7A19B123C381977E74C3C7214341619D /* Pods-TKA_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKA_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7B9C96036C120F897572F066E53C8978 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TKA/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C207EA493A647C8E1A9554C7D137D84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7FB796B79A071852A4FD2652AF6E09DF /* TKA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKA.xcconfig; sourceTree = "<group>"; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		83093BF8C18BF6988B1F3541F25C3137 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		88F82AF03FA8D1AB07D9CB34A97C113F /* Pods_TKA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKA_Example.framework; path = "Pods-TKA_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		8FE5B8F68E5A6CB7B2B0006D0ACF7E58 /* Pods-TKA_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKA_Example-dummy.m"; sourceTree = "<group>"; };
-		9786C19EA9C8EA141D6DA1BBA9BD1B67 /* TKA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKA-Info.plist"; sourceTree = "<group>"; };
+		9383B948DD99391CBA3D6D2A5B7EA89A /* TKA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKA.modulemap; sourceTree = "<group>"; };
+		96DEEDECF1B9F8B54CB4F0415BBBE275 /* DopUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopUDID.h; path = TKA/Classes/DopUDID.h; sourceTree = "<group>"; };
+		98343CE63C86AC3BAE5F0E13DF4D90F0 /* TKA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKA.xcconfig; sourceTree = "<group>"; };
+		9878DA0CA3DD6F764A8CE7E9494C9CB9 /* TKA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKA-dummy.m"; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		99744E64473C43511C25EC14D2F3816B /* TKA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKA-dummy.m"; sourceTree = "<group>"; };
+		9A6CA938B15594F49E7E3B4F50BC538F /* DopCheckUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopCheckUDID.h; path = TKA/Classes/DopCheckUDID.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A2953E041C62EDF58712FB9154FBB137 /* DopoolReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopoolReachability.m; path = TKA/Classes/DopoolReachability.m; sourceTree = "<group>"; };
+		A3C636BB9569D0A56061D648C92ECA53 /* DopBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopBase64.m; path = TKA/Classes/DopBase64.m; sourceTree = "<group>"; };
+		A942F7A291CB1C369AC68B509BC0602B /* NSData+DopGZipAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+DopGZipAdditions.m"; path = "TKA/Classes/NSData+DopGZipAdditions.m"; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		B3B0B372AF9C4776D5A02F8F92A431A4 /* Pods-TKA_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKA_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3E270FAC765D437F42B3D1E563B0DA6 /* UIDevice+DopIdentifierAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+DopIdentifierAddition.h"; path = "TKA/Classes/UIDevice+DopIdentifierAddition.h"; sourceTree = "<group>"; };
+		B57FD83B4C539E2EE8E58D4E9B1659BD /* NSString+DopNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DopNull.m"; path = "TKA/Classes/NSString+DopNull.m"; sourceTree = "<group>"; };
 		B929DF45C538C610AE1BADB1F1239801 /* Pods-TKA_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKA_Example-Info.plist"; sourceTree = "<group>"; };
-		BB714F3A65747BB499E2B227FF62D877 /* TKA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKA-umbrella.h"; sourceTree = "<group>"; };
+		BC9FEE63AFA05565D6464DF1705BFB0A /* DopCheckUDID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DopCheckUDID.m; path = TKA/Classes/DopCheckUDID.m; sourceTree = "<group>"; };
 		C4907745C26B54B8A5E86CBD6D65CA24 /* Pods-TKA_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKA_Tests.modulemap"; sourceTree = "<group>"; };
 		CABAF85630145B7FF6715E1745EEFBB3 /* TKA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKA.framework; path = TKA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFDD8A45CDCD628FCE7C1281D59D381 /* Pods-TKA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D11DAAD00891643EA91685C1B0D1574B /* TKA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKA-Info.plist"; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D486BE48017657BA2B3634E4CE9FAEC7 /* TKA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKA-prefix.pch"; sourceTree = "<group>"; };
+		D8DF65C86C4B6985A5EA94540255D98D /* UIDevice+DopIdentifierAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+DopIdentifierAddition.m"; path = "TKA/Classes/UIDevice+DopIdentifierAddition.m"; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		DF5D2985221A79676D9ACB57AC31933F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E4BC6273F139A125303DAF095AE281E6 /* TKA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E521C8C2CDBEB7F827ECE943F53D0B9F /* TKA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKA-umbrella.h"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E9689BB4F81327A302EF4738FF193D61 /* DopTrackConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopTrackConst.h; path = TKA/Classes/DopTrackConst.h; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EC50BDBD841A46EDFFB0FC2994032954 /* DopTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DopTrack.h; path = TKA/Classes/DopTrack.h; sourceTree = "<group>"; };
 		EEA775669CE18CB3AFD7910FA242AD58 /* Pods-TKA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F91F08E5F87609819ABFFC3F3641319F /* Pods-TKA_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKA_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FA6E0E4DCE3A4CCE55814BF14F53E619 /* NSString+DopNull.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DopNull.h"; path = "TKA/Classes/NSString+DopNull.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,11 +190,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		884D649E363E7F50D60BD4DB1F74D7F4 /* Frameworks */ = {
+		923044B8BEB494BB3394BF9D26176A78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BFFFA9747892EB221A1F884F093750D /* Foundation.framework in Frameworks */,
+				BF62BA2677CA7ED550E11F30F1B12B04 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,15 +220,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D33104FCA9353645545E545B6CD49D2 /* TKA */ = {
+		1FFD357C4A69A78DE025B714F615CDF7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B9C96036C120F897572F066E53C8978 /* ReplaceMe.m */,
-				45A05D5FF07EE3837D779D58BF5122FE /* Pod */,
-				DF3B018557686E5092ED46344CAAE3A1 /* Support Files */,
+				9383B948DD99391CBA3D6D2A5B7EA89A /* TKA.modulemap */,
+				98343CE63C86AC3BAE5F0E13DF4D90F0 /* TKA.xcconfig */,
+				9878DA0CA3DD6F764A8CE7E9494C9CB9 /* TKA-dummy.m */,
+				D11DAAD00891643EA91685C1B0D1574B /* TKA-Info.plist */,
+				D486BE48017657BA2B3634E4CE9FAEC7 /* TKA-prefix.pch */,
+				E521C8C2CDBEB7F827ECE943F53D0B9F /* TKA-umbrella.h */,
 			);
-			name = TKA;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKA";
+			sourceTree = "<group>";
+		};
+		2102A22617379CD5EFD38CF73874D878 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CF20E08A63C14A9292B088CE8B6C183 /* TKA */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2BAD6DB24B23534869382E013B559FE6 /* Products */ = {
@@ -186,14 +253,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45A05D5FF07EE3837D779D58BF5122FE /* Pod */ = {
+		3CF20E08A63C14A9292B088CE8B6C183 /* TKA */ = {
 			isa = PBXGroup;
 			children = (
-				7C207EA493A647C8E1A9554C7D137D84 /* LICENSE */,
-				83093BF8C18BF6988B1F3541F25C3137 /* README.md */,
-				79D38D35E74DDF61F92852620968210E /* TKA.podspec */,
+				749434BDB9157A02BB528EE39FFFD5E6 /* Dop_Device_Checker.h */,
+				11CD55DE8BE3547AA8D1CD0D0786CD4E /* Dop_Device_Checker.m */,
+				4A8FCEFAB7CD3739D78407C6C5BA63B3 /* DopBase64.h */,
+				A3C636BB9569D0A56061D648C92ECA53 /* DopBase64.m */,
+				9A6CA938B15594F49E7E3B4F50BC538F /* DopCheckUDID.h */,
+				BC9FEE63AFA05565D6464DF1705BFB0A /* DopCheckUDID.m */,
+				49BC78B4E04A71598D9CC33E634FB1AD /* DopGlobalDefinition.h */,
+				6248743D95852A27A6A4F883B641030C /* DopGlobalDefinition.m */,
+				675980CF67DCF2E0786BE3ADA8065579 /* DopoolReachability.h */,
+				A2953E041C62EDF58712FB9154FBB137 /* DopoolReachability.m */,
+				EC50BDBD841A46EDFFB0FC2994032954 /* DopTrack.h */,
+				588596F1CBA49373268BC5074454A527 /* DopTrack.m */,
+				E9689BB4F81327A302EF4738FF193D61 /* DopTrackConst.h */,
+				494B87EE9017F70C7E9DB907CAED66E9 /* DopTrackLib.h */,
+				69B4B83E74805B20D05C4E2DD71E81D2 /* DopTrackLib.m */,
+				96DEEDECF1B9F8B54CB4F0415BBBE275 /* DopUDID.h */,
+				503002F8D3E5F3EA0A2D099172838A0C /* DopUDID.m */,
+				01386790F32D2330AE34933C4571C842 /* NSData+DopGZipAdditions.h */,
+				A942F7A291CB1C369AC68B509BC0602B /* NSData+DopGZipAdditions.m */,
+				69325BC317B4667C567C120B3DAC5F0F /* NSDate+DopBJZone.h */,
+				457160AC378498911080484EE5B2A5E6 /* NSDate+DopBJZone.m */,
+				173473ECE786A8CFB5812A4A8D779DB9 /* NSString+DopEncoding.h */,
+				677AA0D43ACE6BAD52994FA670DFD224 /* NSString+DopEncoding.m */,
+				145F7E8DFF0696752F0F38F2CB7D42A5 /* NSString+DopMD5Addition.h */,
+				0BD5FEFF162AC11225EF487D94F1D1F5 /* NSString+DopMD5Addition.m */,
+				FA6E0E4DCE3A4CCE55814BF14F53E619 /* NSString+DopNull.h */,
+				B57FD83B4C539E2EE8E58D4E9B1659BD /* NSString+DopNull.m */,
+				B3E270FAC765D437F42B3D1E563B0DA6 /* UIDevice+DopIdentifierAddition.h */,
+				D8DF65C86C4B6985A5EA94540255D98D /* UIDevice+DopIdentifierAddition.m */,
+				E99A0BCE0A33C280AA3E50504B7FC359 /* Pod */,
+				1FFD357C4A69A78DE025B714F615CDF7 /* Support Files */,
 			);
-			name = Pod;
+			name = TKA;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
@@ -303,14 +399,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BAD98475F6B59BDAF4229086A08D1B89 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1D33104FCA9353645545E545B6CD49D2 /* TKA */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		C0C211FF65C282E4CAF8922A3E5879E0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,26 +412,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BAD98475F6B59BDAF4229086A08D1B89 /* Development Pods */,
+				2102A22617379CD5EFD38CF73874D878 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				2BAD6DB24B23534869382E013B559FE6 /* Products */,
 				C0C211FF65C282E4CAF8922A3E5879E0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DF3B018557686E5092ED46344CAAE3A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0807F261040F603A5295B45C70C72593 /* TKA.modulemap */,
-				7FB796B79A071852A4FD2652AF6E09DF /* TKA.xcconfig */,
-				99744E64473C43511C25EC14D2F3816B /* TKA-dummy.m */,
-				9786C19EA9C8EA141D6DA1BBA9BD1B67 /* TKA-Info.plist */,
-				28F1198B688D33B4BD6E66A6639264AB /* TKA-prefix.pch */,
-				BB714F3A65747BB499E2B227FF62D877 /* TKA-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TKA";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -352,6 +426,16 @@
 				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E99A0BCE0A33C280AA3E50504B7FC359 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF5D2985221A79676D9ACB57AC31933F /* LICENSE */,
+				227B71FAA6D4C5453763869F3825FF67 /* README.md */,
+				E4BC6273F139A125303DAF095AE281E6 /* TKA.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,11 +472,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA8C2CE74AA6CE3C4A4686764C88BC0F /* Headers */ = {
+		C16ECE14B9FD1458094D5C287D427545 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D705A12F1A114E74F1D2468E1B724670 /* TKA-umbrella.h in Headers */,
+				D4F5F4D68C84558550D56B8830C0A6BC /* Dop_Device_Checker.h in Headers */,
+				9E600B7CD46CF6D0D45093491DFA6F7E /* DopBase64.h in Headers */,
+				449A1578D79F8ED263FBE95F1A951487 /* DopCheckUDID.h in Headers */,
+				72C690CC33D6FD09BE083809CFB77127 /* DopGlobalDefinition.h in Headers */,
+				233B2D0483A168CAC43B72C231A0A8B7 /* DopoolReachability.h in Headers */,
+				5AA26FBE93B8EE423BE700876F4BA9FC /* DopTrack.h in Headers */,
+				E6C16522E6B5CE39482A54CDEB4720A6 /* DopTrackConst.h in Headers */,
+				9427A9224372BA73F7C8F8819D2C9AFD /* DopTrackLib.h in Headers */,
+				207239C30D3E4F9C91C1E43CA5AEE40D /* DopUDID.h in Headers */,
+				C4C811C1B3EFDD113410C0AB24CDE199 /* NSData+DopGZipAdditions.h in Headers */,
+				D9D3918C4FCCA25423E2565EBF38C50C /* NSDate+DopBJZone.h in Headers */,
+				9A590D2F3B488146455828DA75174734 /* NSString+DopEncoding.h in Headers */,
+				BA6DFABEF6A1DC0711A3627028A3C5A7 /* NSString+DopMD5Addition.h in Headers */,
+				4766380A2F9DAEA49E79F9B051ADD833 /* NSString+DopNull.h in Headers */,
+				C0F796B96D61954DBF4236D19E4F858D /* TKA-umbrella.h in Headers */,
+				F32699E411F5F49B17B8DA94CD14ABD8 /* UIDevice+DopIdentifierAddition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,12 +500,12 @@
 /* Begin PBXNativeTarget section */
 		7B30B693DA59E385352ECC48EE4A7081 /* TKA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45A62BBCCC2B5510EFAC93F828D347F0 /* Build configuration list for PBXNativeTarget "TKA" */;
+			buildConfigurationList = 86C18974793906A33A90353D5B7B4E9B /* Build configuration list for PBXNativeTarget "TKA" */;
 			buildPhases = (
-				BA8C2CE74AA6CE3C4A4686764C88BC0F /* Headers */,
-				DE6E64B6F947611FB6B71F127092730F /* Sources */,
-				884D649E363E7F50D60BD4DB1F74D7F4 /* Frameworks */,
-				000D360E6D93675A343B99DB97405430 /* Resources */,
+				C16ECE14B9FD1458094D5C287D427545 /* Headers */,
+				9B47BACF64030F34EAD7A8AC93E723B4 /* Sources */,
+				923044B8BEB494BB3394BF9D26176A78 /* Frameworks */,
+				C927033C9402D6119FDC492792F74201 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -505,13 +604,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		000D360E6D93675A343B99DB97405430 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -520,6 +612,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C1660EC90E37108750C6544F4D92F359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C927033C9402D6119FDC492792F74201 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -536,6 +635,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9B47BACF64030F34EAD7A8AC93E723B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA38585CD102C76B5C7F374330FFA2F3 /* Dop_Device_Checker.m in Sources */,
+				11363A5BFB520EDE92E894DA06D9326D /* DopBase64.m in Sources */,
+				64225C60AC2C36D25F2A1B53C3D293C0 /* DopCheckUDID.m in Sources */,
+				2AC4CFB74953B03530DB05ACDE4198A9 /* DopGlobalDefinition.m in Sources */,
+				A88B6028C52A77EF236525DFBBED094F /* DopoolReachability.m in Sources */,
+				318A31D5C3AA119B58E1A5184A6FC6CE /* DopTrack.m in Sources */,
+				9F13CCFDD5AAA71C7653561DD6C01131 /* DopTrackLib.m in Sources */,
+				83BC42DC7CA755BA01CCB062543738D7 /* DopUDID.m in Sources */,
+				3110E210DC31CBB46DE2284E27AA88B2 /* NSData+DopGZipAdditions.m in Sources */,
+				E1B3AEE053677765CED67BDEC675EF60 /* NSDate+DopBJZone.m in Sources */,
+				71D00823EA5857469B50449CDA2DFF3C /* NSString+DopEncoding.m in Sources */,
+				A2AD5E952A4C4180791EE1801EF3BCD8 /* NSString+DopMD5Addition.m in Sources */,
+				64910A0A6BDBE7FA26F4FD0103C232C9 /* NSString+DopNull.m in Sources */,
+				B3E5F65EFDE43FBD084FC8D900AA765F /* TKA-dummy.m in Sources */,
+				24C8C25997D94B846704C11B9E6D209E /* UIDevice+DopIdentifierAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,15 +678,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C098A03015C61C5412A7A35327CF5CB /* Pods-TKA_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE6E64B6F947611FB6B71F127092730F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5066BFE34BE5A3D0FB3AB6ED86FFE70D /* ReplaceMe.m in Sources */,
-				FBB3F9876218B1441DE1F42322EE1DCB /* TKA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,6 +872,37 @@
 			};
 			name = Release;
 		};
+		70F2F272A450984D9EFF1236D455EFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98343CE63C86AC3BAE5F0E13DF4D90F0 /* TKA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKA/TKA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKA/TKA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKA/TKA.modulemap";
+				PRODUCT_MODULE_NAME = TKA;
+				PRODUCT_NAME = TKA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -857,40 +1000,9 @@
 			};
 			name = Debug;
 		};
-		CC53BEC1CFF80B2B95E9ABFB6EFFFE8C /* Debug */ = {
+		C533D5732E28D3B36CAE1077211E5AF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FB796B79A071852A4FD2652AF6E09DF /* TKA.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TKA/TKA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TKA/TKA-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TKA/TKA.modulemap";
-				PRODUCT_MODULE_NAME = TKA;
-				PRODUCT_NAME = TKA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D986E7BCA14F752448477BE3B9415E93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FB796B79A071852A4FD2652AF6E09DF /* TKA.xcconfig */;
+			baseConfigurationReference = 98343CE63C86AC3BAE5F0E13DF4D90F0 /* TKA.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -988,20 +1100,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45A62BBCCC2B5510EFAC93F828D347F0 /* Build configuration list for PBXNativeTarget "TKA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC53BEC1CFF80B2B95E9ABFB6EFFFE8C /* Debug */,
-				D986E7BCA14F752448477BE3B9415E93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C18974793906A33A90353D5B7B4E9B /* Build configuration list for PBXNativeTarget "TKA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F2F272A450984D9EFF1236D455EFF0 /* Debug */,
+				C533D5732E28D3B36CAE1077211E5AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

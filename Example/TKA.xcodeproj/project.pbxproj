@@ -23,6 +23,10 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8BCDF311B7B59543069F464D /* Pods_TKA_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F587DB36E05F7B9882882FD2 /* Pods_TKA_Tests.framework */; };
+		957D456F238E7A3A00584DBA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 957D456E238E7A3A00584DBA /* libz.tbd */; };
+		957D4571238E7A4900584DBA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 957D4570238E7A4900584DBA /* libsqlite3.0.tbd */; };
+		957D4573238E7A5500584DBA /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 957D4572238E7A5500584DBA /* libxml2.tbd */; };
+		957D4575238E7A6300584DBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957D4574238E7A6300584DBA /* SystemConfiguration.framework */; };
 		B03FF8723778B793A3270BA1 /* Pods_TKA_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2FDB0F6E55846C0FA9D6E8 /* Pods_TKA_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +69,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86E4F06ED4C9D4FC574BB751 /* Pods-TKA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKA_Tests.release.xcconfig"; path = "Target Support Files/Pods-TKA_Tests/Pods-TKA_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		957D4569238E704300584DBA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		957D456B238E711100584DBA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		957D456E238E7A3A00584DBA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		957D4570238E7A4900584DBA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		957D4572238E7A5500584DBA /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		957D4574238E7A6300584DBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D918CD537A2686B11FE32F61 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F587DB36E05F7B9882882FD2 /* Pods_TKA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +84,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957D4575238E7A6300584DBA /* SystemConfiguration.framework in Frameworks */,
+				957D4573238E7A5500584DBA /* libxml2.tbd in Frameworks */,
+				957D4571238E7A4900584DBA /* libsqlite3.0.tbd in Frameworks */,
+				957D456F238E7A3A00584DBA /* libz.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +133,12 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				957D4574238E7A6300584DBA /* SystemConfiguration.framework */,
+				957D4572238E7A5500584DBA /* libxml2.tbd */,
+				957D4570238E7A4900584DBA /* libsqlite3.0.tbd */,
+				957D456E238E7A3A00584DBA /* libz.tbd */,
+				957D456B238E711100584DBA /* libsqlite3.tbd */,
+				957D4569238E704300584DBA /* libc++.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -516,10 +536,23 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TKA/TKA-Prefix.pch";
 				INFOPLIST_FILE = "TKA/TKA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TKA",
+				);
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"TKA\"",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -532,10 +565,23 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TKA/TKA-Prefix.pch";
 				INFOPLIST_FILE = "TKA/TKA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TKA",
+				);
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"TKA\"",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
